@@ -1,0 +1,68 @@
+ 
+
+pip install tfx 
+
+pip install tensorflow  
+
+pip install keras 
+
+pip install pyyaml 
+
+pip install h5py 
+
+pip install tensorflow-data-validation 
+
+pip install -U tfx 
+
+ 
+import tensorflow as tf  
+
+print('TensorFlow version: {}'.format(tf.__version__)) 
+
+ 
+
+#RESTART ENVIRONMENT(You do it in order to save changes in google collab after installing dependencies) 
+
+ 
+
+ 
+
+sudo apt install software-properties-common  
+
+sudo add-apt-repository ppa:deadsnakes/ppa 
+
+sudo apt install python3.7 
+
+ 
+
+Check for the TFX version 
+
+ 
+
+import tfx 
+print('TFX version: {}'.format(tfx.__version__)) 
+
+ 
+
+#More Dependencies: 
+
+ 
+
+try:  
+
+  import colab 
+
+  pip install -q --upgrade pip 
+
+except: 
+
+  pass 
+
+ 
+
+
+#RESTART ENVIRONMENT 
+
+
+
+ 

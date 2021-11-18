@@ -1,0 +1,11 @@
+git clone --recurse https://github.com/noahchalifour/rnnt-speech-recognition.git  
+
+cd rnnt-speech-recognition 
+
+pip install -r requirements.txt # install necessary dependencies
+
+cd ./scripts/build_rnnt.sh # to setup the rnnt loss 
+
+#Runing the pre-processing command
+ 
+python preprocess_librispeech.py --data_dir drive/MyDrive/ --output_dir output 
